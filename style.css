@@ -112,10 +112,6 @@ body {
     .weather-form h2{
         font-size: 1.2rem;
     }
-    .weather-form input {
-        padding: 5px;
-        font-size: .7rem;
-    }
     .weather-form button{
         font-size: .9rem;
     }
@@ -133,4 +129,5 @@ body {
         gap: 10px;
     }
 }
+
 
