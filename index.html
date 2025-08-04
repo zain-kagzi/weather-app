@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="container">
+    <div class="weather-form glass">
+      <h2>Search Weather by City</h2>
+      <div id="weatherForm">
+        <input type="text" id="cityInput" placeholder="New York" spellcheck="false" required />
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+      </div>
+      <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+    </div>
+
+    <div class="weather-info glass">
+      <h3 class="city"><i class="fa-solid fa-location-dot"></i> New York</h3>
+      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="weather-icon"/>
+      <div class="temp">23°C</div>
+      <p>Humidity: <span class="humidity">88%</span> </p>
+      <p>Wind Speed: <span class="wind">1.54 m/s</span></p>
+      <p>Weather: <strong><span class="cont"> light rain</span></strong></p>
+    </div>
+  </div>
+
+<script src="https://kit.fontawesome.com/27338b10fe.js" crossorigin="anonymous"></script>
+<script src="weather.js"></script>
+</body>
+</html>
